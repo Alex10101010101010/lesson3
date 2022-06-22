@@ -1,8 +1,7 @@
 public class Test {
 
-    int a;
+    public void method(int a, int b) {
 
-    public static void method() {
-        System.out.println("Hollow World");
+        System.out.println(a + b);
     }
 }
