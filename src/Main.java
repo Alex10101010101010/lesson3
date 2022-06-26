@@ -1,16 +1,24 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
+    private static Random random = new Random();//создание экземпляра класса
     private static final Test test = new Test();//создание экземпляра класса
     private static int sum1 = 0;//это глобальная переменная
     private static int sum2 = 0;//это глобальная переменная
 
     public static void main(String[] args) {
 
-        inputSum();
+//        inputSum();
 
-        test.method(sum1, sum2);
+//        test.method(sum1, sum2);
+
+        numbersRandom();//Вызов метода
+    }
+
+    private static void numbersRandom() {
+        System.out.println(random.nextInt());
     }
 
     //делаем запрос на ввод чисел и присваиваем переменным значения
