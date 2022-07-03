@@ -1,8 +1,12 @@
 public class Main {
 
+    static int number = 0;
     public static void main(String[] args) {
-        Fox fox = new Fox();
-        fox.setSpeed(50);
-        System.out.println(fox.getSpeed());
+
+        if (number >= 0) {
+            System.out.println("Номер больше нуля или равно нулю");
+        } else {
+            System.out.println("Номер не равен нулю");
+        }
     }
 }
