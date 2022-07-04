@@ -14,8 +14,9 @@ public class Main {
         String alternative = number >= 0 ? "Номер больше нуля или равно нулю" : "Номер не равен нулю";
         System.out.println(alternative);
 
-        for (int i = 30; i < 50; i = i + 3) {
-            System.out.println("ПРИВЕТ ! " + --i);
+        long a = 0;
+        for (int i = 0; i < 10; ) {
+            System.out.println("ПРИВЕТ ! " + a++);
         }
     }
 }
