@@ -1,5 +1,6 @@
 public class Animal {
 
+    protected Object size;
     private int speed;
 
     public int getSpeed() {

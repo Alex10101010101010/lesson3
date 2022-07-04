@@ -44,5 +44,13 @@ public class Main {
         System.out.println(foxy == fox); // false - потому что это два разных объекта, они не могут быть одинаковы
         foxy = fox;// это два указателя которые указывают на один и тотже объект
         System.out.println(foxy == fox); //true
+        System.out.println("\n должна быть скорость 50 - " + fox.getSpeed());
+        foxy.setSpeed(100);
+        System.out.println("\n должна быть скорость 100 - " + fox.getSpeed());
+        foxy = new Fox();
+        foxy.setSpeed(50);
+        fox.setSpeed(50);
+        System.out.println("\n сравнение значений у объектов true - " + fox.equals(foxy));//equals - сравнение значений у объектов
+
     }
 }
