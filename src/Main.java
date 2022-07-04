@@ -20,12 +20,13 @@ public class Main {
         }
 
         int f = 0;
-        boolean bool = true;
 
-        while (bool) {
+        while (true) {
             System.out.println("ВЫВОДИМ ЧИСЛО - " + f++);
             if (f >= 10) {
-                bool = false;
+                break;
+            } else {
+                System.out.println("Привет это Я");
             }
         }
 
