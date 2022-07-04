@@ -41,7 +41,8 @@ public class Main {
         // в разных участках помяти,а сравнение осиществляется не значений оссылак на память.
         Fox foxy = new Fox();
         foxy.setSpeed(50);
-        System.out.println(foxy == fox);
-
+        System.out.println(foxy == fox); // false - потому что это два разных объекта, они не могут быть одинаковы
+        foxy = fox;// это два указателя которые указывают на один и тотже объект
+        System.out.println(foxy == fox); //true
     }
 }
