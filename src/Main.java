@@ -15,8 +15,19 @@ public class Main {
         System.out.println(alternative);
 
         long a = 0;
-        for (int i = 0; i < 10; ) {
+        for (int i = 0; i < 5; i++) {
             System.out.println("ПРИВЕТ ! " + a++);
         }
+
+        int f = 0;
+        boolean bool = true;
+
+        while (bool) {
+            System.out.println("ВЫВОДИМ ЧИСЛО - " + f++);
+            if (f >= 10) {
+                bool = false;
+            }
+        }
+
     }
 }
