@@ -48,7 +48,10 @@ public class Main {
      * Java - это кроссплатформленность!
      */
     public static void text(String text) {
-//напишите тут ваш код
+
+        System.out.println(text);
+        System.out.println(text);
+        System.out.println();
     }
 
     /**
@@ -81,9 +84,7 @@ public class Main {
     private static void makingMoney() {
         System.out.print("\nВведите сколько Вы хотите зарабатывать:");
 
-        Scanner console = new Scanner(System.in);
-        int money = console.nextInt();
-        System.err.println("С Java я буду зарабатывать " + money + " тысяч рублей в час");
+        System.err.println("С Java я буду зарабатывать " + new Scanner(System.in).nextInt() + " тысяч рублей в час");
     }
 
     /**
