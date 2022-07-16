@@ -3,9 +3,16 @@
  */
 public abstract class Building {
 
-    int height;
-    int width;
-    String color;
-    boolean hasRoof = true;
+    private final boolean hasRoof = true;
+    private int height;
+    private int width;
+    private String color;
 
+    public boolean isHasRoof() {
+        return hasRoof;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 }
