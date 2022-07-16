@@ -8,6 +8,11 @@ public abstract class Building {
     private int width;
     private String color;
 
+    public Building(int height, int width) {
+        this.height = height;
+        this.width = width;
+    }
+
     public boolean isHasRoof() {
         return hasRoof;
     }

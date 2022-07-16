@@ -10,5 +10,12 @@ public class Main {
         farm.house.setColor("Green");
         System.out.println(farm.house.getColor());
 
+        System.out.println
+                (
+                        "Высота дома: " + farm.house.getHeight()
+                                + ", ширина: " + farm.house.getWidth()
+                                + ", цвет: " + farm.house.getColor()
+                );
+
     }
 }

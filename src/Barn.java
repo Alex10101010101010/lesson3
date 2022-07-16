@@ -2,7 +2,8 @@ public class Barn extends Building implements Warm {
 
     public final String name;
 
-    public Barn(String name) {
+    public Barn(int height, int width, String name) {
+        super(height, width);
         this.name = name;
     }
 
