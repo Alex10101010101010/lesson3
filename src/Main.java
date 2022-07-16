@@ -7,5 +7,8 @@ public class Main {
         System.out.println(farm.barn.isHasRoof());
         System.out.println(farm.barn.getHeight());
 
+        farm.house.setColor("Green");
+        System.out.println(farm.house.getColor());
+
     }
 }
